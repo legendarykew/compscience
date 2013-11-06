@@ -179,7 +179,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
         else:
             # use history, opponent_history, score, opponent_score
             # to compute your strategy
-            if len(opponent_history) % 2 = 0: # if even
+            if len(opponent_history) % 2 == 0: # if even
                 return 'c'
             else:
                 return 'b'
